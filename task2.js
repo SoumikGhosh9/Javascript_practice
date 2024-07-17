@@ -80,3 +80,16 @@ else{
 }
 
 // 11. Write a program that uses the || operator to combine two conditions and log to the console
+let condition1 = true
+let condition2 = false
+if(condition1 || condition2){
+    console.log("Atleast one condition true");
+}
+else{
+    console.log("No condition os true");
+}
+
+// 12. write a program that uses ternary operators to check if a number is positive or negative  and log to the console
+let m1 = 20;
+let res = (number>=0)?"The number is positive.":"The number is negative";
+console.log(res);
