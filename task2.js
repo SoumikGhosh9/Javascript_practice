@@ -70,3 +70,13 @@ else{
     console.log("value not changed");
 }
 
+// 10. Write a program that uses the && operator to combine two conditions and log to the console
+const number = 16
+if (number%2==0 && number>=0) {
+    console.log("The number is positive and even ");
+}
+else{
+    console.log("The number is not even");
+}
+
+// 11. Write a program that uses the || operator to combine two conditions and log to the console
