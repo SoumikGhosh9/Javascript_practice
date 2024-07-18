@@ -37,4 +37,28 @@ let student = "Amit"
 student = "Soumik"
 console.log("Nmae of student ",student);
 
+// Datatype conversion
+let score = "Soumik"
+console.log(typeof score);
+let ValueInNumber = Number(score)
+console.log(typeof ValueInNumber);
+console.log(ValueInNumber);
+
+// "33" => 33
+// "name" => Nan
+// true => 1  false=> 0
+
+let isLoggedIn = 1
+console.log(typeof isLoggedIn);
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn);
+
+// 1 => true  0 => false
+// "name" => true, "" => flase
+
+let someNumber = 12
+
+let stringnumber = String(someNumber)
+console.log(stringnumber);
+console.log(typeof stringnumber);
 
