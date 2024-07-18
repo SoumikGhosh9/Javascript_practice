@@ -100,3 +100,16 @@ switch (true) {
 }
 console.log("Grade is"+grade);
 
+//6. Write a program to use ternary operator to check if a number is even or odd and log the result to the console
+let number1 = 5
+let result = (number1%2 === 0) ? "even": "odd" ;
+console.log(result);
+
+//7. Write a program to check if a year is leap year or not and log the result to the console
+let year = 1983
+if(year%4==0 && year%400==0 && year/100!=0){
+    console.log("Leap Year");
+}
+else{
+    console.log("Not a leap year");
+}
