@@ -16,3 +16,25 @@ function square(height,width) {
     return(square)
 }
 console.log(square(10,10));
+
+// 3. Write a function expression to find the maximum of two numbers and log the result to the console
+const max = function(a,b){
+    if (a>b) {
+        return (a);
+    }
+    else{
+        return (b)
+    }
+}
+const m = 20
+const n = 25
+console.log(max(m,n));
+
+// 4. Write a function expression to concatinate two strings and return the result
+const concatination = function (a,b) {
+    return (a+b)
+}
+let s1 = "soumik"
+let s2= "ghosh"
+console.log(concatination(s1,s2));
+
