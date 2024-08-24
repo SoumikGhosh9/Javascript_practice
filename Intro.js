@@ -9,3 +9,4 @@
 console.log("Good morning");
 console.warn("This is a warning");
 console.error("There is an error");
+console.error("There is an error");
