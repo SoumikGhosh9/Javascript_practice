@@ -66,3 +66,8 @@ console.log(typeof stringnumber);
 let s = (15599-(10/100*15599)-272+(2499-(41/100*2499))-29+25+20);
 console.log(s)
 console.log(Math.round(15257.51));
+
+let z = '₹' + (15528);
+let y = `₹ ${(15528)}`
+console.log(z);
+console.log(y);
