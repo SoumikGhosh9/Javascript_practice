@@ -97,6 +97,13 @@ console.log(res);
 
 //Ternary Oprators
 
-let age = 21;
-let result_age = age > 18? 'Adult':'kids';
-console.log(result_age);
+// let age = 21;
+// let result_age = age > 18? 'Adult':'kids';
+// console.log(result_age);
+
+//Guard Operator
+
+let age;
+let finalage = age || 18;
+console.log(age);
+console.log(finalage);
