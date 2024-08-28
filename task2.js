@@ -93,3 +93,10 @@ else{
 let m1 = 20;
 let res = (number>=0)?"The number is positive.":"The number is negative";
 console.log(res);
+
+
+//Ternary Oprators
+
+let age = 21;
+let result_age = age > 18? 'Adult':'kids';
+console.log(result_age);
