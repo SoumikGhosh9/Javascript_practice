@@ -60,3 +60,15 @@ function oddeven(a){
     }
 }
 oddeven(12);
+
+
+function largervalue(a,b){
+    if(a>b){
+        console.log(`${a} is greater than ${b} `);
+    }
+    else{
+        console.log(`${b} is greater than ${a} `);
+        
+    }
+}
+largervalue(113,9)
