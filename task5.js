@@ -44,3 +44,8 @@ function sum(m,n){
     return sum;
 }
 console.log(sum(4,6));
+
+function greeting(name){
+    console.log(`Namaste ${name} uncle`);
+}
+greeting('nifeji');
