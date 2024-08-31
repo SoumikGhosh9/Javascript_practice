@@ -38,3 +38,9 @@ let s1 = "soumik"
 let s2= "ghosh"
 console.log(concatination(s1,s2));
 
+
+function sum(m,n){
+    let sum = m+n;
+    return sum;
+}
+console.log(sum(4,6));
