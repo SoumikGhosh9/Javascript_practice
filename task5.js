@@ -1,14 +1,14 @@
 // 1. Write a function to check if the number is even or odd and log to the console
-function evenodd(a) {
-    if (a%2==0){
-        return("even");
-    }
-    else{
-        return("odd");
-    }
-}
-let a = 6;
-console.log(evenodd());
+// function evenodd(a) {
+//     if (a%2==0){
+//         return("even");
+//     }
+//     else{
+//         return("odd");
+//     }
+// }
+// let a = 6;
+// console.log(evenodd());
 
 // 2. Write a function to calculate the square of a box and return the result
 function square(height,width) {
@@ -49,3 +49,14 @@ function greeting(name){
     console.log(`Namaste ${name} uncle`);
 }
 greeting('nifeji');
+
+
+function oddeven(a){
+    if (a%2==0){
+        console.log('even');
+    }
+    else{
+        console.log('odd');
+    }
+}
+oddeven(12);
