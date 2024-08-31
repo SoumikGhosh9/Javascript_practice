@@ -72,3 +72,10 @@ function largervalue(a,b){
     }
 }
 largervalue(113,9)
+
+
+function converttemp(c){
+    let f = (9/5)*c+32;
+    console.log(f);
+}
+converttemp(16);
